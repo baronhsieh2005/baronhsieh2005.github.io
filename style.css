@@ -59,44 +59,31 @@ nav ul li a:hover {
 }
 
 .content h1 {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 80px;
   color: #fff;
 }
 
 .content h3 {
-  position: absolute;
-  top: 78%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 40px;
   color: #fff;
 }
 
 .content p {
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 50vw;
   font-size: 20px;
   color: #fff;
   text-align: center;
 }
 
 .content img {
-  position: absolute;
-  top: 8%;
-  border-radius: 50%;
   width: 600px;
   height: 600px;
+  transform: translate(0, 10%);
   object-fit: cover;
-  margin-bottom: 20px;
 }
 
 .content2 {
+  margin-top: 8%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,38 +91,25 @@ nav ul li a:hover {
 }
 
 .content2 pre {
-  position: absolute;
-  top: 15%;
   font-family: 'Courier New', Courier, monospace;
 
 }
 
 .content2 h1 {
-  position: absolute;
   font-family: 'Courier New', Courier, monospace;
-  top: 66%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 30px;
   color: #fff;
 }
 
 .content2 h3 {
-  position: absolute;
   font-family: 'Courier New', Courier, monospace;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
   color: #fff;
 }
 
 .content2 p {
-  position: absolute;
   font-family: 'Courier New', Courier, monospace;
-  top: 83%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 50vw;
   font-size: 15px;
   color: #fff;
   text-align: center;
